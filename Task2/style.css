@@ -1,49 +1,113 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body{
-    background-color: rgb(175, 217, 236);
+    background-color: rgba(234,243,245,255);
+    margin: 200;
+    
 }
+.first_p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+} 
 
 .input_container{
-    top: 150px;
+    top: 50px;
     width: 600px;
-    position: re;
-    margin: 50px;
-}
-.profile{
-     position: absolute;
-     top:155px;
-     left: 250px; 
-}
-.email{
-    position: absolute;
+    height: 500px;
+    position: relative;
     
 }
-
 input{
     width: 100%;
-    height: 35px;
-    pad: 6px 12px;
-    margin: auto;
-    padding-left: 30px;
-    border-radius: 4px;
+    height: 45px;
+    bottom: 10px;
+    padding: 6px;
+    padding-left: 40px;
     border: 2px solid grey;
-    
+    position: relative;
+    box-sizing: border-box;
 }
+
 .inputs_1{
-    position: absolute;
+    padding: 40px;
+    position: relative;
     background-color: white;
     width: 750px;
-    height: 700px;
-    margin: 50px 150px 50px;
-    
+    height: 500px;
+}
+.profile {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.profile_img{
+    position: absolute;
+    top: 8px;
+    left: 13px; 
+}
+.email{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.email_img{
+    position: absolute;
+    top: 8px;
+    left: 13px; 
 }
 
-.first_p{
-
-    top: 200px;
+.phone{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.phone_img{
+    position: absolute;
+    top: 8px;
+    left: 13px; 
+}
+.book{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.book_img{
+    position: absolute;
+    top: 8px;
+    left: 13px; 
+}
+.notes{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.notes_img{
+    position: absolute;
+    top: 8px;
+    left: 13px; 
+}
+.notes input{
+    height: 100px;
+    width: 100%;
+    bottom: 10px;
+    padding: 6px 40px 6px;
+    position: relative;
+    display: block;
+    
+}
+.notes ::placeholder{
+    top:12px;
+    position: absolute;
+    width: 100%;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(122,156,165,255);
 }
